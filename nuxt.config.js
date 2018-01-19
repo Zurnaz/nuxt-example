@@ -17,7 +17,7 @@ module.exports = {
   ** Router test 
   */
   router: {
-    base: './'
+    base: process.env.DEPLOY_ENV === 'STATIC' ? './' : '/'
   },
   /*
   ** Customize the progress bar color
