@@ -17,7 +17,7 @@ module.exports = {
   ** Generate location - set to docs to host on github pages
   */
   generate: {
-    dir: 'doc'
+    dir: 'docs'
   },
   /*
   ** Router 
