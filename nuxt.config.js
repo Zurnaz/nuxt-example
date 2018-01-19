@@ -14,7 +14,7 @@ module.exports = {
     ]
   },
   /*
-  ** Generate location - set to docs to host on github pages
+  ** Generate location
   */
   generate: {
     dir: 'dist'
