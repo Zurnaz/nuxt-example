@@ -14,7 +14,13 @@ module.exports = {
     ]
   },
   /*
-  ** Router test 
+  ** Generate location - set to docs to host on github pages
+  */
+  generate: {
+    dir: 'doc'
+  },
+  /*
+  ** Router 
   */
   router: {
     base: process.env.DEPLOY_ENV === 'STATIC' ? './' : '/'
