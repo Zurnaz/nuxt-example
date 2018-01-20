@@ -23,7 +23,7 @@ module.exports = {
   ** Router 
   */
   router: {
-    base: process.env.DEPLOY_ENV === 'STATIC' ? './' : '/'
+    base: process.env.DEPLOY_ENV === 'STATIC' ? '/nuxt-example/' : '/'
   },
   /*
   ** Customize the progress bar color
