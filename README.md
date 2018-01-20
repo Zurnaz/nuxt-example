@@ -18,7 +18,3 @@ $ npm run deploy
 $ npm run dev
 
 ```
-
-## Issues: 
-
-* When generating static content the vue javascript onclick does not fire
